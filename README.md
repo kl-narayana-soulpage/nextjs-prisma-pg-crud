@@ -8,7 +8,16 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+
 ```
+## Procedure:
+step1: Clone the project
+step2: Install the node modules
+step3: Setup configuration in .env file (example:database username, password etc, here i am using pgAdmin. )
+step4: Migrate the db and tables using  (npx prisma db push)
+step5: Run the project (npm run dev)
+see the output
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
